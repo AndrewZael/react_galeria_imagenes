@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import terry from './assets/img/terry-bogard.png';
 import kyo from './assets/img/kyo.png';
 import deathstroke from './assets/img/death-stroke.png';
+import v from './assets/img/v.png';
 
 function App() {
   return (
@@ -31,6 +32,12 @@ function App() {
           color="orange"
           name="Death Stroke" 
           description="Deathstroke, originalmente conocido como Terminator, apareció por primera vez en 1980 en la segunda edición del libro New Teen Titans. Se introdujo originalmente como un mercenario que estaba finalizando los términos de un contrato realizado por su hijo, Devastador, pero rápidamente se convirtió en uno de los principales antagonistas de los Titanes. Deathstroke se convirtió rápidamente en uno de los favoritos de los fans. Más tarde es visto a menudo aliado con los Titanes contra amenazas mutuas. Deathstroke aparece en la serie animada Teen Titans usando sólo su primer nombre, Slade."></Card>
+
+        <Card 
+          img={v}
+          color="black"
+          name="V" 
+          description="V es un personaje ficticio de la serie de cómics V de Vendetta, creado por Alan Moore y David Lloyd. V es un misterioso anarquista a quien se reconoce por su máscara de Guy Fawkes y ropa oscura. Según Moore, V puede ser tanto el protagonista como el antagonista de la historia; es el lector quien decide si es un héroe que lucha por una causa justa o simplemente un loco."></Card>
       </div>
       <Footer description="&copy; Galería de imágenes de personajes correspondientes a distintas franquicias."></Footer>
     </>
