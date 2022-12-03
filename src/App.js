@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import terry from './assets/img/terry-bogard.png';
 import kyo from './assets/img/kyo.png';
+import deathstroke from './assets/img/death-stroke.png';
 
 function App() {
   return (
@@ -21,9 +22,15 @@ function App() {
 
         <Card 
           img={kyo} 
-          color="orange"
+          color="#222"
           name="Kyo Kusanagi" 
           description="Kyo Kusanagi es uno de los personajes principales de la entrega de SNK Playmore The King of Fighters; (el héroe eterno de KOF según los desarrolladores) debutando en el torneo del año 1994 como líder del equipo de Japón. Habiendo ganado los torneos KOF del año '94 hasta el '97, teniendo 4 de ellos y siendo el que más ha ganado. También es el rival de Iori Yagami y K', ademas de ser uno de los personajes de la famosa 'Band of fighters'"></Card>
+
+        <Card 
+          img={deathstroke}
+          color="orange"
+          name="Death Stroke" 
+          description="Deathstroke, originalmente conocido como Terminator, apareció por primera vez en 1980 en la segunda edición del libro New Teen Titans. Se introdujo originalmente como un mercenario que estaba finalizando los términos de un contrato realizado por su hijo, Devastador, pero rápidamente se convirtió en uno de los principales antagonistas de los Titanes. Deathstroke se convirtió rápidamente en uno de los favoritos de los fans. Más tarde es visto a menudo aliado con los Titanes contra amenazas mutuas. Deathstroke aparece en la serie animada Teen Titans usando sólo su primer nombre, Slade."></Card>
       </div>
       <Footer description="&copy; Galería de imágenes de personajes correspondientes a distintas franquicias."></Footer>
     </>
