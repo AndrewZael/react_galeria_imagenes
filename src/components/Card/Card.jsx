@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.scss';
 
 const Card = (props) => (
-  <article className='col-12 col-sm-6 col-md-4 col-lg-3'>
+  <article className='col-12 col-sm-6 col-md-4 col-lg-3 mb-3'>
     <div className="card border-0 bg-transparent">
       <div className="content-faces">
         <div className="front" style={{ backgroundColor: props.color }}>

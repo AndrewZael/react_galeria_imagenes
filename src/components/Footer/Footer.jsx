@@ -5,7 +5,7 @@ const Footer = (props) => {
     return (
         <footer>
             <small className='d-block mb-3'>{ props.description }</small>
-            <Button as="a" variant="primary" href="#header">
+            <Button as="a" variant="primary" href="#body">
                 Ir arriba
             </Button>
         </footer>
