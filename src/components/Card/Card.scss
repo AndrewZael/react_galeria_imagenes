@@ -1,4 +1,4 @@
-.card {
+ .card {
     position: relative;
     width: 100%;
     height: 400px;
@@ -56,7 +56,7 @@
             .description{
                 overflow-y: auto;
                 padding-right: 1rem;
-                height: 300px;
+                height: 280px;
             }
         }
       }
@@ -64,6 +64,10 @@
         .content-faces{
             transition: transform 0.5s;
             @extend .transform-ry-180;
+            .front{
+                visibility: hidden;
+                transition-delay: 500ms;
+            }
         }
         &+{
             .overlay-img{
@@ -75,8 +79,8 @@
   }
 
 .overlay-img{
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-position: top center!important;
+    background-repeat: no-repeat!important;
     background: rgba(0, 0, 0, .6);
     width: 100%;
     height: 100%;

@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../logo.svg'
 import './Card.scss';
 
 const Card = (props) => (
@@ -8,10 +7,11 @@ const Card = (props) => (
       <div className="content-faces">
         <div className="front" style={{ backgroundColor: props.color }}>
           <img src={props.img} alt={props.name} className="position-absolute mx-auto" />
-          <h2>{ props.name }</h2>
+          <h2 className="text-truncate">{ props.name }</h2>
         </div>
         <div className="back">
-          <h2>{ props.name }</h2>
+          <h2 className="text-truncate" title={props.name}>{ props.name }</h2>
+          <h3 className="small text-uppercase mb-3">{ props.origin }</h3>
           <div className="description">
             <p dangerouslySetInnerHTML={{ __html: props.description }}></p>
           </div>
